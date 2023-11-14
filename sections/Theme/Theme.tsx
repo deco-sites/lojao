@@ -315,11 +315,11 @@ const toVariables = (t: Theme): [string, string][] => {
 };
 
 const defaultTheme = {
-  "primary": "hsla(209, 28%, 21%, 1)",
+  "primary": "hsl(0,28%,21%)",
   "primary-content": "hsla(0, 0%, 100%, 1)",
-  "secondary": "hsla(104, 18%, 46%, 1)",
+  "secondary": "hsl(51,10%,27%)",
   "secondary-content": "hsla(0, 0%, 100%, 1)",
-  "tertiary": "hsla(8, 69%, 65%, 1)",
+  "tertiary": "hsl(79,19%,38%)",
   "tertiary-content": "hsla(0, 0%, 100%, 1)",
   "neutral": "hsla(0, 0%, 47%, 1)",
   "base-100": "hsla(0, 0%, 100%, 1)",
